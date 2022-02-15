@@ -9,6 +9,10 @@ bower_components
 .cache
 .parcel-cache
 .dist
+
+cache
+parcel-cache
+dist
 node_modules
 
 # macOS
