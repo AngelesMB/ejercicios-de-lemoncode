@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="site.css">
+    <title>Laboratorio 4 extra</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="room-features">
+        <h2>Elige tu habitación:</h2>
+        <label for="room-type">Tipo de habitación</label>
+        <select name="room-type" id="room-type">
+          <option value="" disabled selected hidden>Elige habitación</option>
+          <option value="standard">Standard</option>
+          <option value="junior-suite">Junior Suite</option>
+          <option value="suite">Suite</option>
+        </select>
+        <br />
+        <label for="spa">Indique si hará uso del SPA</label>
+        <input type="checkbox" name="spa" id="spa" />
+        <br />
+        <label for="room-size">Tamaño de habitación</label>
+        <select name="room-size" id="room-size">
+          <option value="placeholder" disabled selected hidden>Elige tamaño</option>
+          <option value="individual">Individual</option>
+          <option value="doble">Doble</option>
+          <option value="triple">Triple</option>
+        </select>
+        <br />
+        <label for="night-count">Número de noches</label>
+        <input type="number" name="night-count" id="night-count" min="0" value="0"/>
+        <br />
+        <label for="parking-count">Parking</label>
+        <input type="number" name="parking-count" id="parking-count" min="0" value="0"/>
+      </div>
+      <!-- <div class="button" id="button">
+        <button>Calcular</button>
+      </div> -->
+      <div class="result" id="result"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

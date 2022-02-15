@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(243, 224, 201);
+    font-size: 12pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main-container {
+    background-color: white;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+}
+h2{
+    margin-top: 10px;
+    color: #ce8471;
+}
+input{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+button {
+    background-color: #ce8471;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.result {
+    color: #ce8471;
+}

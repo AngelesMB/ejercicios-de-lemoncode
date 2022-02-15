@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    display: flex;
+}
+h2  {
+    text-align: center;
+}
+.hotel-description {
+    width: 600px;
+    border: 1px solid #dcdcdc;
+    background-color: rgb(229, 226, 226);
+    border-radius: 3px;
+    padding: 16px;
+    margin: 16px;
+    display: flex;
+}
+.hotel-description-text {
+    width: 400px;
+}
+.hotel-img {
+    width: 200px;
+    height: auto;
+}
+.hotel-rating {
+    width: 600px;
+    border: 1px solid #dcdcdc;
+    background-color: rgb(229, 226, 226);
+    border-radius: 3px;
+    padding: 16px;
+    margin: 16px;
+}
+
+

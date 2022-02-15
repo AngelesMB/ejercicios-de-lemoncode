@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    margin: auto;
+    width: 50%;
+}
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 32px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+label {
+    font-weight: bold;
+}
+.img {
+    text-align: center;
+    position: relative;
+    margin: 24px 0 12px 0;
+}
+img.avatar {
+    width: 25%;
+}    
+.form {
+    padding: 16px;
+}
+.update {
+    text-align: center;
+}
+button {
+    background-color: #ce8471;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+    

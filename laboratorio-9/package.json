@@ -1,0 +1,17 @@
+{
+  "name": "laboratorio-9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.17.3",
+    "axios": "^0.22.0",
+    "parcel": "^2.3.1"
+  }
+}

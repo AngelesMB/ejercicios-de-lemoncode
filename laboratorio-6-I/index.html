@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="site.css" />
+    <title>Laboratorio 6 I</title>
+  </head>
+  <body>
+    <!-- 1. Prepara un HTML con la cabecera, el botón de calcular, y los campos de la factura subtotal , impuestos y total . Sin
+embargo, no hagas ningún elemento para los productos, eso lo debes hacer desde JS. Si necesitaras crear algún div ,
+identifícalo con algún id que te servirá como punto de entrada para "enganchar" tu lista de productos. -->
+    <h2 class="header">Carrito de la Compra</h2>
+    <div class="productContainer" id="productContainer">
+      <!-- HTML from JS -->
+    </div>
+    <button class="button" id="button">Calcular</button>
+    <div class="totalContainer">
+      <div class="subtotalContainer">
+        <span>Subtotal</span>
+        <span class="subtotal" id="subtotal"></span>
+      </div>
+      <div class="VATContainer">
+        <span>IVA</span>
+        <span class="VAT" id="VAT"></span>
+      </div>
+      <div class="totalContainer">
+        <span>TOTAL</span>
+        <span class="total" id="total"></span>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

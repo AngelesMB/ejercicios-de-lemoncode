@@ -1,0 +1,16 @@
+{
+  "name": "laboratorio-8",
+  "version": "1.0.0",
+  "description": "Laboratorio 8 Imports ",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "common-js": "^0.3.8",
+    "parcel": "^2.3.1"
+  }
+}
